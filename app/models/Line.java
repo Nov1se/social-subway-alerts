@@ -19,6 +19,7 @@ public class Line extends Model {
     @Id
     private ObjectId id;
     private String name;
+    //@Embedded
     private LineType type;
     @Embedded("station")
     private List<Station> stations;
@@ -58,16 +59,16 @@ public class Line extends Model {
     /**
      * @return the type
      */
-    public LineType getType() {
-        return type;
-    }
-
-    /**
-     * @param type the type to set
-     */
-    public void setType(LineType type) {
-        this.type = type;
-    }
+//    public LineType getType() {
+//        return type;
+//    }
+//
+//    /**
+//     * @param type the type to set
+//     */
+//    public void setType(LineType type) {
+//        this.type = type;
+//    }
 
     /**
      * @return the stations

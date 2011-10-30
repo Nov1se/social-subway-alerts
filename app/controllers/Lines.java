@@ -2,15 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package models;
-
-import com.google.code.morphia.annotations.Embedded;
+package controllers;
 
 /**
  *
  * @author Michael
  */
-//@Embedded
-public enum LineType {
-    SUBWAY, BUS, RAILROAD
+public class Lines extends CRUD {
+    
 }
